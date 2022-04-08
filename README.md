@@ -22,9 +22,9 @@ The goal of this project is to practice supervised learning using Netflix/IMDB d
 
 
 ## Results
-In our case and selection of models, the best model is the decision tree classifier, the second best the voting classifier.
+In our case (data cleaning & encoding, selection of models, features selection and hyperparameters tuning), the best model is the decision tree classifier, while Gaussian NB and Voting Classifier can do a good enough job.
 
-We reject the Gaussian NB and the Quadractics Discrimimant Analysis.
+However, we reject the Quadractics Discrimimant Analysis.
 
 ## Links
 [This repo] (https://github.com/eric-martinet/Project7_SupervisedLearningNetflix)
