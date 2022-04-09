@@ -1,8 +1,8 @@
 from locale import normalize
 import re
-from turtle import color
 from sklearn.metrics import accuracy_score, recall_score, precision_score, roc_auc_score, roc_curve, confusion_matrix, ConfusionMatrixDisplay
 import matplotlib.pyplot as plt
+from sklearn.model_selection import GridSearchCV
 
 # SYNTHESIS FUNCTION
 def synthetise(model, X_train, X_test, y_train, y_test):
